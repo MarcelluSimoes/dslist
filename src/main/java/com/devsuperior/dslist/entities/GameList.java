@@ -20,7 +20,6 @@ public class GameList {
 	public GameList() {}
 
 	public GameList(Long id, String name) {
-		super();
 		this.id = id;
 		this.name = name;
 	}
