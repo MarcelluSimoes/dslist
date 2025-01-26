@@ -34,11 +34,11 @@ public class GameService {
 		return dto;
 	}
 	
-	/*@org.springframework.transaction.annotation.Transactional(readOnly = true)
+	@org.springframework.transaction.annotation.Transactional(readOnly = true)
 	public List<GameMinDTO> findByList(Long listId){
 		List<GameMinProjection> result = gameRepository.searchByList(listId);
 		List<GameMinDTO> dto = result.stream().map(x -> new GameMinDTO(x)).toList();
 		return dto;
-	}*/
+	}
 
 }
